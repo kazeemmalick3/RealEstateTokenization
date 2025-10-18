@@ -251,7 +251,7 @@
       (map-set property-token-metadata
         { property-id: property-id }
         {
-          token-name: (concat "Property Token " (unwrap-panic (to-consensus-buff? property-id))),
+          token-name: "PROP",
           token-symbol: "PROP",
           token-decimals: u6,
           token-uri: none
